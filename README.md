@@ -12,11 +12,11 @@ Now, the scripts inside ASM folder such as tasm.bat, masm.bat, tlink.bat...etc s
 
 Included Assemblers and linkers are as follows:-
 
-Turbo Assembler  Version 2.51 (tasm.exe)
-Turbo Linker  Version 4.0 (tlink.exe)
+Turbo Assembler  Version 2.51 (tasm.exe),
+Turbo Linker  Version 4.0 (tlink.exe),
 
-Microsoft (R) Macro Assembler  Version 5.00 (masm.exe)
-Microsoft (R) Overlay Linker  Version 3.60 (link.exe)
+Microsoft (R) Macro Assembler  Version 5.00 (masm.exe),
+Microsoft (R) Overlay Linker  Version 3.60 (link.exe),
 
 DOSBox Version 0.74-3 (DOSBox.exe)
 
@@ -34,7 +34,11 @@ For Masm Assembler, run `masm sample.asm` to generate object file and to link ru
 5. The script then pipes the output of Tasm Assembler to `pipe.txt` and to the user cmd terminal.
 6. The script finally copies the resultant object file `clone.obj` to the user's directory with the original name `hello-world.obj`
 
-PS: The masm.bat, tlink.bat, link.bat, dosbox.bat also follows the above method.
+7. And if we ran `tlink hello-world.obj` the tlink.bat copies the `hello-world.obj` to C:\ASM\bin and rename it to `clone.obj`
+8. The `clone.obj` is supplied to Turbo Linker inside mounted DOSBox and output is piped to user cmd terminal
+9. Finally, copies the resultant `clone.exe` to the user's directory with the original name `hello-world.exe`
+
+PS: The masm.bat, link.bat, tlink.bat, dosbox.bat also follows a similar approach so mounting long file names(LFN) and suppling LFN arguments will never become a problem. and we can access these assemblers from anywhere
 
 
 
