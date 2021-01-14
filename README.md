@@ -3,9 +3,9 @@ A nice solution to add Tasm and Masm Assemblers to environment variable paths fo
 
 This enables any user to invoke tasm/masm to run in a dosbox from anywhere in Windows, (even folders with long file names, which are normally not supported in DOSBox)
 
-###masm demo
+##### masm demo
 ![demo1](masm.gif)
-###tasm demo
+##### tasm demo
 ![demo2](tasm.gif)
 
 
