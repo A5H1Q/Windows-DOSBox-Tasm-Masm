@@ -6,7 +6,7 @@ This enables user to invoke tasm / masm and run in dosbox from anywhere in Windo
 ### Installation:
 
 1. Copy the ASM Folder to C:\
-2. Add C:\ASM to Windows Path
+2. Add C:\ASM to Windows Path.
 
 Now, the scripts inside ASM folder such as tasm.bat, masm.bat, tlink.bat...etc should be accessible from anywhere via commandline
 
@@ -27,7 +27,7 @@ For Masm Assembler, run `masm sample.asm` to generate object file and to link ru
 
 ### Working:
 
-1. On any directory if we ran `tasm hello-world.asm` in command prompt,
+1. On any directory if we ran `tasm hello-world.asm` in command prompt, the following happens
 2. tasm.bat gets automatically invoked since C:\ASM is added to Windows environment path.
 3. The tasm.bat will copy the argument specified which is `hello-world.asm` to C:\ASM\bin and rename it to `clone.asm`.
 4. The tasm.bat will mount C:\ASM\bin to DOSBox and Invoke the real tasm.exe with `clone.asm` as argument.
