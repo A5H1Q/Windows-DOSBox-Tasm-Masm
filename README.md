@@ -1,6 +1,4 @@
 
-A nice solution to add Tasm / Masm Assemblers to Windows environment paths for users who runs these inside specific folder mounted DOSBoxes..
-
 This enables user to invoke tasm / masm and run in dosbox from anywhere in Windows, (even folders with long file names, which are normally not supported in DOSBox)
 
 ### Installation:
