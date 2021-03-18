@@ -1,6 +1,4 @@
 
-This enables user to invoke tasm / masm and run in dosbox from anywhere in Windows, (even folders with long file names, which are normally not supported in DOSBox)
-
 ### Installation:
 
 1. Copy the ASM Folder to C:\
